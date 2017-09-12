@@ -1,0 +1,79 @@
+/* 
+    Document   : vstyle
+    Created on : Sep 10, 2017, 8:31:09 PM
+    Author     : Saran
+    Description:
+        Purpose of the stylesheet follows.
+*/
+a{
+    text-decoration: underline;
+    font-size: 30px;
+    
+}
+body{
+    border: 2px solid black;
+    margin: auto;
+    padding: 5px;
+    background-color: #ccffcc;
+}
+header,footer{
+    padding: 5px;
+    font-size: 30px;
+    font-style: oblique;
+    color: orangered;
+    display: inline-block;
+    text-align: center;
+}
+a:hover{
+    color: aliceblue;
+    padding: 6px;
+    background-color: #66ff99;
+    text-decoration: blink;
+}
+nav{
+    background-color: rosybrown;
+    display:block;
+}
+p{
+  display: block;
+  font-size: 20px;
+  font-family: fantasy;
+  
+}
+#m{
+    display:inherit;
+    font-style: italic;
+    font-size:20px;
+    
+}
+#p{
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td {
+     padding: 15px;
+     font-family: sans-serif;
+}
+th {
+    padding: 15px;
+    font-size: x-large;
+    font-style: italic;
+    font-family: serif;
+    text-align: left;
+    font-weight: bold;
+}
+#c{
+    text-decoration: overline;
+}
+ul{
+    font-family: cursive ;
+    font-size: 20px;
+    font-weight: 100;
+    
+}
